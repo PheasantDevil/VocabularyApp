@@ -202,7 +202,7 @@ const VocabularyApp = () => {
           )}
         </div>
       </div>
-      <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
+      <Dialog isOpen={isDialogOpen}>
         <DialogContent>
           <DialogHeader>
             <DialogTitle>新しい単語を追加</DialogTitle>
